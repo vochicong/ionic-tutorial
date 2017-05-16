@@ -1,6 +1,6 @@
-# Ionic Intro
+# Ionic Tutorial
 
-Let's do the Ionic Introduction Tutorial using Cloud9 IDE.
+Let's do the Ionic Tutorial using Cloud9 IDE.
 
 ## Get started
 
@@ -19,11 +19,16 @@ cd app
 ionic serve --port $PORT
 ```
 
-After create your account at http://view.ionic.io,
+After create your account at http://ionic.io,
 login and link this app to Ionic View.
 ```
 ionic login
 ionic link
+```
+
+Make the first dependencies to [Ionic View](http://view.ionic.io/)
+```
+ionic upload --note "First deployment" --deploy production
 ```
 
 ## References
